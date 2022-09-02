@@ -1,0 +1,34 @@
+@import "header.less";
+@import "colors.less";
+@import "mixins.less";
+@import "Left-Container.less";
+@import "input.less";
+
+body {
+  font-family: "Mardoto";
+  overflow: hidden;
+  margin: 0;
+  height: 98vh;
+  padding: 10px 10px;
+  background-color: @main-background;
+}
+
+.Main-Container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Main-Content {
+  width: 100%;
+  /* height: fit-content; */
+  /* height: auto; */
+  height: 95%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

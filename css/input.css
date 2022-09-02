@@ -1,0 +1,44 @@
+.filter {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #f4f5f7;
+  margin-top: 5px;
+}
+.searchFilter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fa-filter {
+  color: #8247ff;
+  top: 6px;
+  left: 8px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.Main-Input {
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  flex: 1;
+  padding: 0;
+  padding-left: 5px;
+}
+.search-Input {
+  height: 30px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  width: 80%;
+}
+.Main-Left-Input:focus {
+  border: none;
+  outline: none;
+}
